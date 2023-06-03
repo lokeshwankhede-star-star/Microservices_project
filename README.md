@@ -55,7 +55,7 @@ A) Launch API Gateway
 13. Select "Update-student-data" resource and Go in "Action" Click on "Create Method" choose option as "PATCH".
 14. Select "Delete-student-data" resource and Go in "Action" Click on "Create Method" choose option as "DELETE". 
 
-![img7](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/b3bd9e0f-3ebf-4f2c-9f6d-5d45571cc980)
+    ![img7](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/b3bd9e0f-3ebf-4f2c-9f6d-5d45571cc980)
 
 ---
 B) Launch AWS Lambda Function
@@ -100,7 +100,7 @@ C) Launch AWS DynamoDB
                 - Auto scaling: Off
                 - Provisioned capacity units: 10
                
-![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/12d546ee-0e44-4147-8cc1-b445b2898909)
+    ![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/12d546ee-0e44-4147-8cc1-b445b2898909)
  
 --- 
 D) Trigger "API Gateway" with "AWS Lambda"
@@ -116,7 +116,7 @@ D) Trigger "API Gateway" with "AWS Lambda"
         - Use default timeout: Enable
 4. Save and OK
 
-![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/709a4762-f864-4deb-837d-e3af4aa2d3a3)
+    ![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/709a4762-f864-4deb-837d-e3af4aa2d3a3)
 
 5. Do same for other methods (patch,put,delete)
 6. Click on "\" 
@@ -126,9 +126,9 @@ D) Trigger "API Gateway" with "AWS Lambda"
 10. Stage name: dev
 11. Save
 
-![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/986fa7b3-9c05-4697-949d-bcb9b772e094)
+    ![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/986fa7b3-9c05-4697-949d-bcb9b772e094)
 
-![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/80477564-09cc-4744-bb5b-07221e5bf672)
+    ![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/80477564-09cc-4744-bb5b-07221e5bf672)
 
 ---
 E) Give "DynamoDB" full access permission to "AWS Lambda"
@@ -138,7 +138,7 @@ E) Give "DynamoDB" full access permission to "AWS Lambda"
 3. Click on "Configuration" (scroll down) 
 4. Select "Permissions" 
 
-![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/b33feda0-684b-4a44-9ad6-a5fdf29945cd)
+    ![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/b33feda0-684b-4a44-9ad6-a5fdf29945cd)
 
 5. Click on "Role name" (under Execution Role)
 6. Go on "Add Permissions" 
@@ -146,20 +146,20 @@ E) Give "DynamoDB" full access permission to "AWS Lambda"
 8. Search for "AmazonDynamoDBFullAccess" and "AWSLambda_FullAccess".
 9. Add permission. 
 
-![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/ce0479ee-402c-4b93-bc69-940de769a85b)
+    ![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/ce0479ee-402c-4b93-bc69-940de769a85b)
 
 11. Copy and Paste "post_data_in_db_using_lambda.py" file code
 12. Deploy
     - Note: Change table name as per your created table name and change primary key and other key as per your your value.
 
-![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/5e9db3ab-9639-4682-b6e8-dabf664aa8bf)
+    ![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/5e9db3ab-9639-4682-b6e8-dabf664aa8bf)
 
 13. Do same for other 3 functions (patch-function,put-function,delete-function).
   
 ---
 F) Log in on Postman (https://www.postman.com/)
 
- ![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/4e5a3d9c-aedf-4582-a0d7-b3276f49f999)
+    ![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/4e5a3d9c-aedf-4582-a0d7-b3276f49f999)
 
 1. Click on "Workspaces" (on left panel)
 2. Click on "create workspace"
@@ -173,7 +173,7 @@ F) Log in on Postman (https://www.postman.com/)
 3. Click on "New" (on top left corner)
 4. Choose "HTTP"
 
-![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/c3842ed8-4997-4ecd-adfc-6811c2d71341)
+    ![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/c3842ed8-4997-4ecd-adfc-6811c2d71341)
 
 ---
 G) Final stage
