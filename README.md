@@ -159,7 +159,8 @@ E) Give "DynamoDB" full access permission to "AWS Lambda"
 ---
 F) Log in on Postman (https://www.postman.com/)
 
-    ![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/4e5a3d9c-aedf-4582-a0d7-b3276f49f999)
+    ![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/5bbecf1c-3cc7-489f-93e4-d1fe58a5f0d0)
+
 
 1. Click on "Workspaces" (on left panel)
 2. Click on "create workspace"
