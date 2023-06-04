@@ -119,7 +119,7 @@ D) Trigger "API Gateway" with "AWS Lambda"
     ![image](https://github.com/lokeshwankhede-star-star/Microservices_project/assets/81281161/709a4762-f864-4deb-837d-e3af4aa2d3a3)
 
 5. Do same for other methods (patch,put,delete)
-6. Click on "\" 
+6. Click on " \ " 
 7. Go in "Action"
 8. Select "Deploy API" 
 9. Deployment Stage: Choose New Stage
